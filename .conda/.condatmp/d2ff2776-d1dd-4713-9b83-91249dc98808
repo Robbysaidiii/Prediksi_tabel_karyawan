@@ -1,0 +1,13 @@
+prefix=c:/Users/robbysaidi/Prediksi_tabel_karyawan/.conda/Library
+exec_prefix=c:/Users/robbysaidi/Prediksi_tabel_karyawan/.conda/Library
+libdir=c:/Users/robbysaidi/Prediksi_tabel_karyawan/.conda/Library/lib
+sharedlibdir=c:/Users/robbysaidi/Prediksi_tabel_karyawan/.conda/Library/lib
+includedir=c:/Users/robbysaidi/Prediksi_tabel_karyawan/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
